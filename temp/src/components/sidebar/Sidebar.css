@@ -1,0 +1,53 @@
+.Main{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:#E0E0E0 ;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    
+
+}
+
+.Main a{
+    display: block;
+    color: black;
+  padding: 16px;
+  text-decoration: none;
+
+}
+
+
+.Main a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .Main a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  @media screen and (max-width: 700px) {
+    .Main{
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .Main a {float: left;}
+    div.content {margin-left: 0;}
+  }
+
+  @media screen and (max-width: 400px) {
+    .Main a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .profile{
+    height: 50px;
+    width: 50px;
+    padding-top:300px;
+  }

@@ -1,0 +1,40 @@
+    .Tb{
+
+        border-radius: 2px;
+        border-color: black;
+    }
+
+    .Table{
+        border-radius: 2px;
+        border-color: black;
+        display: flex;
+        display: block;
+        
+    }
+
+    th,td{
+        padding: 10px;
+        border:2px solid;
+        border-bottom: 1px solid black;
+    }
+
+    tr:hover{
+        background-color: rgb(135, 247, 135);
+    }
+
+    .deletebutton    {
+        background-color: rgb(220, 16, 16);
+      }
+      
+      .updatebutton{
+        background-color: rgb(33, 243, 9);
+      }
+
+      .core{
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        padding-left: 400px;
+       
+
+      }

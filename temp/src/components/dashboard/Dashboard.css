@@ -1,0 +1,63 @@
+.Card{
+ 
+  position: relative;
+ 
+  z-index: 1;
+}
+
+.sidebar{
+  z-index: 2;
+  position: relative;
+}
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 700;
+    padding-left: 250px;
+    
+  }
+
+  .dashboard-card:hover {
+    background-color:white
+      ;
+    
+  }
+
+  .dashboard-card {
+    background-color: rgb(139, 255, 139);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+  
+  }
+  
+  /* h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+  } */
+  
+  /* p {
+    color: #555;
+    font-size: 16px;
+  } */
+  
+  .flex-container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-direction: row;
+}
+.flex-child {
+  flex: 1;
+  
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
