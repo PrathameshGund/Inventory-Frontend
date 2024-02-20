@@ -10,7 +10,7 @@ const Sidebar = () => {
       <Link className='active' to="/Dashboard">Dashboard</Link>
       <Link to="/Warehouse">Warehouse</Link>
       <Link to="/Order"> Orders </Link>
-      <Link to="/Cli">Client</Link>
+      {/* <Link to="/Cli">Client</Link> */}
       
       <img className='profile'src="https://shorturl.at/giBI9" alt="" />
     </div>
